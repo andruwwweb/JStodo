@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="icon" href="./images/note-2389227_960_720.webp">
+    <title>Task Manager</title>
+</head>
+<body>
+    <div class="container">
+        <div class="modal-layer" hidden>
+            <div class="modal">
+                <span>Adding empty note<br>is impossible.</span>
+                <span class="close">Close</span>
+            </div>
+        </div>
+        <header class="header">
+            <div class="app-name">@andruwwweb</div>
+            <div class="app-logo"></div>
+        </header>
+        <main class="main">
+            <form class="form">
+                <input type="text" placeholder="Write new note">
+                <button>Add</button>
+            </form>
+            <div class="task-list">
+                <div class="task">
+                    <div class="task-text">This is the first task</div>
+                    <div class="delete">
+                        <img src="./images/1345874.png">
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
